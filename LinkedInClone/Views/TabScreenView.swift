@@ -18,13 +18,13 @@ struct TabScreenView: View {
             
             MyNetworkScreenView()
                 .tabItem {
-                    Image(systemName: "Person2.fill")
+                    Image(systemName: "person.2.fill")
                     Text("My Network")
                 }
             Text("Post")
                 .tabItem {
                     Image(systemName: "plus.app.fill")
-                    Text("MyNetwork")
+                    Text("Post")
                 }
             Text("Notifications")
                 .tabItem {
