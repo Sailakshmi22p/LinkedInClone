@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323CC94E28E233C100A9FCD6 /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CC94D28E233C100A9FCD6 /* ProfileAndPostView.swift */; };
+		323CC95028E235BD00A9FCD6 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CC94F28E235BD00A9FCD6 /* PostView.swift */; };
+		323CC95228E23B9500A9FCD6 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CC95128E23B9500A9FCD6 /* HomeScreenView.swift */; };
+		323CC95428E23C7000A9FCD6 /* TabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CC95328E23C7000A9FCD6 /* TabScreenView.swift */; };
 		3263377428DE4E3800CCF7FD /* LinkedInCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263377328DE4E3800CCF7FD /* LinkedInCloneApp.swift */; };
 		3263377628DE4E3800CCF7FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263377528DE4E3800CCF7FD /* ContentView.swift */; };
 		3263377828DE4E3900CCF7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3263377728DE4E3900CCF7FD /* Assets.xcassets */; };
 		3263377B28DE4E3900CCF7FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3263377A28DE4E3900CCF7FD /* Preview Assets.xcassets */; };
+		3263378328DE4F4A00CCF7FD /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263378228DE4F4A00CCF7FD /* SearchBarView.swift */; };
+		3263378628DFCB8700CCF7FD /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263378528DFCB8700CCF7FD /* PostModel.swift */; };
+		3263378828DFCB9500CCF7FD /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263378728DFCB9500CCF7FD /* NetworkModel.swift */; };
+		3263378A28DFCEAC00CCF7FD /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263378928DFCEAC00CCF7FD /* InvitationView.swift */; };
+		3263378C28DFD49B00CCF7FD /* MyNetworkScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263378B28DFD49B00CCF7FD /* MyNetworkScreenView.swift */; };
+		3263378E28DFD8A300CCF7FD /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263378D28DFD8A300CCF7FD /* PostCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323CC94D28E233C100A9FCD6 /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		323CC94F28E235BD00A9FCD6 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		323CC95128E23B9500A9FCD6 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		323CC95328E23C7000A9FCD6 /* TabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenView.swift; sourceTree = "<group>"; };
 		3263377028DE4E3800CCF7FD /* LinkedInClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3263377328DE4E3800CCF7FD /* LinkedInCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInCloneApp.swift; sourceTree = "<group>"; };
 		3263377528DE4E3800CCF7FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3263377728DE4E3900CCF7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3263377A28DE4E3900CCF7FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3263378228DE4F4A00CCF7FD /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		3263378528DFCB8700CCF7FD /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		3263378728DFCB9500CCF7FD /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		3263378928DFCEAC00CCF7FD /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		3263378B28DFD49B00CCF7FD /* MyNetworkScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreenView.swift; sourceTree = "<group>"; };
+		3263378D28DFD8A300CCF7FD /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		3263377228DE4E3800CCF7FD /* LinkedInClone */ = {
 			isa = PBXGroup;
 			children = (
+				3263378428DFCB7700CCF7FD /* Models */,
+				3263378128DE4F3200CCF7FD /* Views */,
 				3263377328DE4E3800CCF7FD /* LinkedInCloneApp.swift */,
 				3263377528DE4E3800CCF7FD /* ContentView.swift */,
 				3263377728DE4E3900CCF7FD /* Assets.xcassets */,
@@ -65,6 +87,30 @@
 				3263377A28DE4E3900CCF7FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3263378128DE4F3200CCF7FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3263378228DE4F4A00CCF7FD /* SearchBarView.swift */,
+				3263378928DFCEAC00CCF7FD /* InvitationView.swift */,
+				3263378B28DFD49B00CCF7FD /* MyNetworkScreenView.swift */,
+				3263378D28DFD8A300CCF7FD /* PostCardView.swift */,
+				323CC94D28E233C100A9FCD6 /* ProfileAndPostView.swift */,
+				323CC94F28E235BD00A9FCD6 /* PostView.swift */,
+				323CC95128E23B9500A9FCD6 /* HomeScreenView.swift */,
+				323CC95328E23C7000A9FCD6 /* TabScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3263378428DFCB7700CCF7FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3263378528DFCB8700CCF7FD /* PostModel.swift */,
+				3263378728DFCB9500CCF7FD /* NetworkModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323CC95428E23C7000A9FCD6 /* TabScreenView.swift in Sources */,
+				3263378E28DFD8A300CCF7FD /* PostCardView.swift in Sources */,
+				323CC94E28E233C100A9FCD6 /* ProfileAndPostView.swift in Sources */,
 				3263377628DE4E3800CCF7FD /* ContentView.swift in Sources */,
+				3263378628DFCB8700CCF7FD /* PostModel.swift in Sources */,
+				3263378328DE4F4A00CCF7FD /* SearchBarView.swift in Sources */,
+				3263378828DFCB9500CCF7FD /* NetworkModel.swift in Sources */,
 				3263377428DE4E3800CCF7FD /* LinkedInCloneApp.swift in Sources */,
+				323CC95228E23B9500A9FCD6 /* HomeScreenView.swift in Sources */,
+				3263378A28DFCEAC00CCF7FD /* InvitationView.swift in Sources */,
+				323CC95028E235BD00A9FCD6 /* PostView.swift in Sources */,
+				3263378C28DFD49B00CCF7FD /* MyNetworkScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
